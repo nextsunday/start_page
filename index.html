@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Start Page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" , href="index.css" />
+</head>
+
+<body>
+    <header>
+        <span class="js-weather weather"></span>
+    </header>
+    <main>
+        <div class="js-date date"></div>
+        <div class="js-clock clock">
+            <h1>00:00:00</h1>
+        </div>
+        <form class="js-form form">
+            <input type="text" placeholder="What is your name?" />
+        </form>
+        <h4 class="js-greetings greetings greetings"></h4>
+
+        <form class="js-toDoForm">
+            <input type="text" placeholder="Write a to do" />
+        </form>
+        <hr>
+        Doing<br>
+        <ul class="js-pendingList toDoList"></ul>
+        <hr>
+        Finished<br>
+        <ul class="js-finishedList toDoList"></ul>
+        <script src="clock.js"></script>
+        <script src="greetings.js"></script>
+        <script src="todo.js"></script>
+        <script src="bg.js"></script>
+        <script src="weather.js"></script>
+    </main>
+</body>
+
+</html>
